@@ -1,14 +1,14 @@
-# Base 16 for IPython Notebook
+# Base16 Themes for Jupyter Notebook
 
-Custom style sheets for [IPython Notebook][1], using Chris Kempson's [Base16][2] color scheme generator
+Custom style sheets for [Jupyter Notebook][1], using Chris Kempson's [Base16][2] color scheme generator
 
 ## Screenshots
 
-####Ocean dark
+#### Ocean dark
 
 ![ocean dark theme screenshot](./screenshots/ocean-dark.png "Ocean dark")
 
-####Solarized light
+#### Solarized light
 
 ![solarized light theme screenshot](./screenshots/solarized-light.png "Solarized light")
 
@@ -63,7 +63,7 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 * Uses Base16 builder by [Chris Kempson][3].
 * Based on [base16-codemirror][4] by [Jan T. Scott][5]
 
-[1]: http://ipython.org/notebook.html
+[1]: https://github.com/jupyter/notebook
 [2]: https://github.com/chriskempson/base16
 [3]: https://github.com/chriskempson
 [4]: https://github.com/idleberg/base16-codemirror

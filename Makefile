@@ -29,5 +29,12 @@ tmp/base16: base16-builder
 	cp ./tmp/output/templates/*.css $@
 	rm -rf ./tmp
 
+./ipython-6/output: tmp/base16 tmp/schemes
+	mkdir -p $@
+	cp -r ./ipython-6/templates tmp/templates
+	cd tmp && mkdir -p output && ./base16
+	cp ./tmp/output/templates/*.css $@
+	rm -rf ./tmp
+
 clean:
-	rm -rf ./tmp ./ipython-2/output ./ipython-3/output
+	rm -rf ./tmp ./ipython-2/output ./ipython-3/output ./ipython-6/output
